@@ -73,6 +73,8 @@ type Config struct {
 	TestVolumeParameters      map[string]string
 	TestNodeVolumeAttachLimit bool
 
+	TestBlock bool
+
 	JUnitFile string
 
 	// Callback functions to customize the creation of target and staging
